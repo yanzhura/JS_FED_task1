@@ -1,11 +1,8 @@
-/* Raisin Black #2E282A */
-/* Isabeline #F4F3EE */
-
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap');
-/* font-family: 'Yanone Kaffeesatz', sans-serif; */
 
 html {
-    background-color: #2e282a;
+    background-color: #0c0606;
     color: #f4f3ee;
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
@@ -29,9 +26,110 @@ html {
 }
 
 .photo {
+    display: flex;
     width: 400px;
+    height: 400px;
+    background-color: #f4f3ee;
+}
+
+.photo img {
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    height: 70%;
+    margin: auto;
 }
 
 .info {
-    margin-left: 20px;
+    margin-left: 60px;
+    width: 80%;
+}
+
+.info-card {
+    margin-bottom: 25px;
+}
+
+.info-title {
+    margin-bottom: 5px;
+    font-weight: 500;
+}
+
+.card {
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    border-color: #eeeeee;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 8px;
+    padding: 2rem;
+    box-shadow: 0 0 12 #aa8888;
+}
+
+.card-title {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.shedule {
+    display: flex;
+    width: 300px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.shedule ul {
+    list-style-type: none;
+}
+
+.table {
+    width: 75%;
+    margin: 0 auto;
+}
+
+.table hr {
+    border: none;
+    height: 1px;
+    background-color: #fff;
+}
+
+.table-row {
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.table-header {
+    font-weight: 500;
+}
+
+.column {
+    width: 30%;
+}
+
+.contacts {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.contact {
+    text-align: center;
+    line-height: 60px;
+    width: 48px;
+    height: 48px;
+    background: #fff;
+    border-radius: 6px;
+    color: #000;
+}
+
+.contact:hover {
+    box-shadow: 0 0 6 2 #ffffff, 0 0 13 6 #cc00cc, 0 0 18 8 #00cccc;
+}
+
+.contact a {
+    color: #000;
 }

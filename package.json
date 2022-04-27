@@ -1,0 +1,24 @@
+{
+    "name": "task1-student-card",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "private": "true",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/yanzhura/JS_FED_task1.git"
+    },
+    "keywords": [],
+    "author": "Mikhail Yanzhura <yanzhura@gmainl.com>",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/yanzhura/JS_FED_task1/issues"
+    },
+    "homepage": "https://github.com/yanzhura/JS_FED_task1#readme",
+    "devDependencies": {
+        "parcel": "^2.5.0"
+    }
+}
